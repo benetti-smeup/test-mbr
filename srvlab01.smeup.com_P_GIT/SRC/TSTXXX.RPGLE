@@ -6,6 +6,7 @@
 000501171106     V* 06/11/17  V5R1   BMA Altre modifiche
 000502171106     V* 06/11/17  V5R1   BMA Altre modifiche 2
 000503171106     V* 06/11/17  V5R1   BMA Altre modifiche 3
+000504171106     V* 06/11/17  V5R1   BMA Altre modifiche 4
 000600070528     V* ==============================================================
 000700070528     H/COPY QILEGEN,£INIZH
 000800161020      *COPY QILEGEN,£MDVF        *** /COPY Soppressa da PTF B£61020B ***
