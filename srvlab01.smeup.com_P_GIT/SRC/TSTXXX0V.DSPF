@@ -1,0 +1,73 @@
+000100160316     A*%%TS  SD  20160316  181606  ARRSTE      REL-V6R1M0  5761-WDS
+000200160316     A*%%EC
+000300160316     A                                      DSPSIZ(24 80 *DS3)
+000400160316     A                                      CHGINPDFT(HI CS)
+000500160316     A                                      PRINT
+000600160316     A                                      CA22
+000700160316     A                                      CA02
+000800160316     A          R FMT1
+000900160316     A*%%TS  SD  20160316  181606  ARRSTE      REL-V6R1M0  5761-WDS
+001000160316     A                                      CA03
+001100160316     A                                      CF04
+001200160316     A                                      CF05
+001300160316     A                                      CF10
+001400160316     A                                      CA12
+001500160316     A  42                                  CF16
+001600160316     A            £RASDI        15A  O  1  2DSPATR(HI)
+001700160316     A                                  1 29'*         xxx           *'
+001800160316     A                                      DSPATR(RI)
+001900160316     A                                  1 60SYSNAME
+002000160316     A            £PDSNP        10A  O  1 71
+002100160316     A                                  2  2DATE
+002200160316     A                                      EDTCDE(Y)
+002300160316     A                                  2 35'Simulazione'
+002400160316     A                                      DSPATR(HI)
+002500160316     A            £PDSJN        10A  O  2 60
+002600160316     A            £PDSNU        10A  O  2 71
+002700160316     A            W$RISC         8A  B  3 71
+002800160316     A                                  4  2'Input'
+002900160316     A                                      DSPATR(UL)
+003000160316     A                                      DSPATR(HI)
+003100160316     A                                  5  2'Funzione'
+003200160316     A            W$XXFU        10A  B  5 19
+003300160316     A  61                                  DSPATR(RI)
+003400160316     A                                      DSPATR(HI)
+003500160316     A N60                                  DSPATR(PC)
+003600160316     A            W£XXFU        30A  O  5 30
+003700160316     A  42                              5 73'£Kxxx_FU'
+003800160316     A                                      DSPATR(HI)
+003900160316     A                                  6  2'Metodo'
+004000160316     A            W$XXME        10A  B  6 19
+004100160316     A  62                                  DSPATR(RI)
+004200160316     A  62                                  DSPATR(PC)
+004300160316     A                                      DSPATR(HI)
+004400160316     A            W£XXME        30A  O  6 30
+004500160316     A  42                              6 73'£Kxxx_ME'
+004600160316     A                                      DSPATR(HI)
+004700160316     A                                  7  2'Input 1'
+004800160316     A            W$XXYY        10A  B  7 19
+004900160316     A  42                              7 73'£Kxxx_yy'
+005000160316     A                                      DSPATR(HI)
+005100160316     A                                 17  2'Output'
+005200160316     A                                      DSPATR(UL)
+005300160316     A                                      DSPATR(HI)
+005400160316     A  42                             22  2'Nr. Esecuzioni'
+005500160316     A  42        W$NUES         6Y 0B 22 17CHECK(RB)
+005600160316     A                                      EDTCDE(Z)
+005700160316     A  67                                  DSPATR(RI)
+005800160316     A  67                                  DSPATR(PC)
+005900160316     A  42                             22 24'Indicatori'
+006000160316     A  42        W$IN35         1A  O 22 35DSPATR(HI)
+006100160316     A  42        W$MESS        15A  O 22 39DSPATR(HI)
+006200160316     A  42        W$FILE        12A  O 22 55DSPATR(HI)
+006300160316     A  42                             22 68'£xxx35/MS/FI'
+006400160316     A                                      DSPATR(HI)
+006500160316     A  42                             23  2'F05=Elimin.dat.tec.'
+006600160316     A N42                             23  2'F05=Vis.dati tecnici'
+006700160316     A  42                             23 25'F16=Sorgenti'
+006800160316     A  42                             23 41'F10=No controllo'
+006900160316     A  60        W$MESV        76A  O 24  2DSPATR(RI)
+007000160316     A                                 18  2'Output 1'
+007100160316     A            W$XXOYY       20A  B 18 19
+007200160316     A  42                             18 73'£xxxO_yy'
+007300160316     A                                      DSPATR(HI)
