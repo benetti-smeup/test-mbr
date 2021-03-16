@@ -1,0 +1,2 @@
+# encode all files as utf8 unless mentioned elsewhere
+*  git-encoding=utf-8
